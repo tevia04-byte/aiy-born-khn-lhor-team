@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 4px;
+    z-index: 100;
+    
+}
+
+
+
+.logo {
+    font-weight:bold ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #8b0303;
+}
+
+.but {
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #e51818;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:  0.3s ease;
+}
+
+.but:hover {
+    transform: scale(1.1);
+    background-color: #CE2626;
+}
+
+.cbr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.textcbr {
+    font-size: 3rem;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #8b0303;
+    letter-spacing: 2px;
+    border-bottom: 5px;
+        
+}
+
+.text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #8b0303;
+    letter-spacing: 2px;
+    border-bottom: 5px;
+        
+}
+
+img {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    transition: 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+.but-cbr {
+    border: none;
+    background-color: #CE2626;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    transition:  0.3s ease  ; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.but-cbr:hover {
+    background-color: #b52a2a;
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
+}
+
+.z900 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+footer {
+    margin-top: 100px;
+    padding: 50px 20px 50px 20px;
+    background-color: #ffffff  ;
+    display: flex;
+    justify-content: center;
+    
+}
