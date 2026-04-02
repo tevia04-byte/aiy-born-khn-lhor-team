@@ -1,0 +1,57 @@
+h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 100vh;
+}
+
+.ll {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 100px;
+    background-color: rgb(130, 131, 131);
+    width: 900px;
+    border: 5px solid black;
+}
+.kk {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 100px;
+}
+.dd {
+    font-size: 50px;
+    transform: translate(200px);
+}
+.pp {
+    font-size: 25px;
+    transform: translate(200px);
+}
+.oo {
+    font-size: 25px;
+}
+.rr {
+    background-color: black;
+}
+.jj {
+    transform: translate(200px);
+}
+.aa {
+    transform: translate(200px);
+}
+.qq {
+    transform: translate(200px);
+}
+.ss {
+    background-color: rgb(85, 85, 85);
+    border-radius: 50px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    transform: translate(150px);
+    border: 5px solid black;
+    
+}
